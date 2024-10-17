@@ -10,7 +10,7 @@
   <HighResolutionIconUrl DefaultValue="https://localhost:3000/assets/icon-64.png"/>
   <SupportUrl DefaultValue="https://tmorin.github.io/test-add-in/assets/support.html"/>
   <AppDomains>
-    <AppDomain>https://www.contoso.com</AppDomain>
+    <AppDomain>https://tmorin.github.io/test-add-in</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Document"/>
