@@ -2,8 +2,8 @@
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xsi:type="TaskPaneApp">
-  <Id>6ee708f0-4850-45e4-a94b-5b97260a3166</Id>
-  <Version>999.999.999</Version>
+  <Id>5e8109b8-f2c3-4932-a78b-fa6950403956</Id>
+  <Version>999.999.9999</Version>
   <ProviderName>https://www.axiomtec-software.ch/</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="AxiomSuite - Word Template Designer"/>
