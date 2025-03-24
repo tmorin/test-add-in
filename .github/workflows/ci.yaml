@@ -39,7 +39,7 @@ jobs:
     steps:
       - uses: actions/download-artifact@v3
       - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           path: "dist"
       - uses: actions/deploy-pages@v4
