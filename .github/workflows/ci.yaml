@@ -16,10 +16,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-pages-artifact@v3
+        id: deployment
         with:
-          name: dist
-          path: "dist"
+         path: "dist"
   deploy:
     environment:
       name: github-pages
@@ -37,13 +37,5 @@ jobs:
       pages: write
       id-token: write
     steps:
-      - uses: actions/download-artifact@v4
-        with:
-          name: dist
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-artifact@v4
-        with:
-          name: "github-pages"
-          path: "dist"
       - uses: actions/deploy-pages@v4
         id: deployment
